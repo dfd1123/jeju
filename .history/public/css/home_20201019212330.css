@@ -43,7 +43,7 @@ button.buy{border-radius:100em;display:block;margin:0 auto;text-align:center;fon
 #ex_container .right img{right:-370px;transform:perspective(500px) rotateY(-10deg);-ms-transform:perspective(500px) rotateY(-10deg);-webkit-transform:perspective(500px) rotateY(-10deg)}
 
 #on_ex_container{position:relative;overflow:hidden;width:100%;margin:0 auto;text-align:center;background:url(/img/bg_onexh.png) no-repeat right top;min-height:1065px;background-size:auto 100%}
-#on_ex_container .left_section{position:relative;float:left;width:20%;min-height:1065px;max-width:370px;background-color:#ffcf58;overflow:hidden;}
+#on_ex_container .left_section{position:relative;float:left;width:30%;min-height:1065px;max-width:370px;background-color:#ffcf58;overflow:hidden;}
 #on_ex_container .left_section h2{display:block;text-align:left;font-size:28px;color:#402f03;padding:30px 0 30px 50px;border-bottom:1px solid #fff;box-sizing: border-box;margin-bottom:24px;}
 #on_ex_container .left_section ul{padding:0 0 24px 50px;margin:0px;}
 #on_ex_container .left_section ul li{display:block;text-align:left;color:#64501e;font-size:22px;font-weight: bold;margin-bottom:24px;}
@@ -67,10 +67,7 @@ input.leftch[type="checkbox"]:checked + label span {  background:url(/img/ic_che
 #on_ex_container .left_section .search span button{border:none;background:#fff;}
 #on_ex_container .left_section p{display:block;margin:0 auto;padding-top:53px;}
 
-#on_ex_container .right_section{position:relative;float:left;width:80%;padding-left:10px;box-sizing: border-box;}
-#on_ex_container .right_section .content{display:block;position:relative;width:90%;}
+#on_ex_container .right_section{osition:relative;float:left;width:70%;max-width:370px;padding-left:10px;box-sizing: border-box;}
+#on_ex_container .right_section .content{display:block;position:relative;width:80%;border:1px solid red}
 #on_ex_container .right_section .subtop{display:block;width:100%;min-height:353px;}
-#on_ex_container .right_section .subtop.menu01{background:url(/img/bg_onlinetop_food.png) no-repeat center top;background-size:100% auto;}
-#on_ex_container .right_section .subtop h3{position:relative;text-align:left;display:block;padding:125px 0 10px 120px;background:url(/img/ic_quotation.png) no-repeat 90px 70px;color:#fff;font-size:53px;}
-#on_ex_container .right_section .subtop h3 strong{font-size:62px;}
-#on_ex_container .right_section .subtop h3:after{content:'';bottom:0px;width:30%;position:absolute;left:0px;height:1px;background:#fff;}
+#on_ex_container .right_section .subtop.menu01{background:url(/img/bg_onlinetop_food.png) no-repeat center top;}
