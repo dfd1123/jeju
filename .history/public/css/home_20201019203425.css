@@ -52,13 +52,13 @@ input.leftch[type="checkbox"] {
 }
 input.leftch[type="checkbox"] + label span {
   display:inline-block;
-  width:21px;
-  height:21px;
-  margin:0px 10px 0 0;
+  width:19px;
+  height:19px;
+  margin:-2px 10px 0 0;
   vertical-align:middle;
   background:url(/img/ic_check_off.png) left top no-repeat;
   cursor:pointer;
 }
-input.leftch[type="checkbox"]:checked + label span {  background:url(/img/ic_check_on.png) left top no-repeat;}
+input.leftch[type="checkbox"]:checked + label span {  background:url(/img/ic_check_on.png) -19px top no-repeat;}
 
 #on_ex_container .right_section{float:left;width:70%;max-width:370px;padding-left:10px;box-sizing: border-box;}

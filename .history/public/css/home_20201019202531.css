@@ -42,23 +42,8 @@ button.buy{border-radius:100em;display:block;margin:0 auto;text-align:center;fon
 #ex_container .left img{left:-370px;z-index:90;transform:perspective(800px) rotateY(20deg);-ms-transform:perspective(800px) rotateY(20deg);-webkit-transform:perspective(800px) rotateY(20deg)}
 #ex_container .right img{right:-370px;transform:perspective(500px) rotateY(-10deg);-ms-transform:perspective(500px) rotateY(-10deg);-webkit-transform:perspective(500px) rotateY(-10deg)}
 
-#on_ex_container{position:relative;overflow:hidden;width:100%;margin:0 auto;text-align:center;background:url(/img/bg_onexh.png) no-repeat right top;min-height:1065px;background-size:auto 100%}
-#on_ex_container .left_section{position:relative;float:left;width:30%;min-height:1065px;max-width:370px;background-color:#ffcf58;overflow:hidden;}
-#on_ex_container .left_section h2{display:block;font-size:28px;color:#402f03;}
-#on_ex_container .left_section ul{padding:0px;margin:0px;}
-#on_ex_container .left_section ul li{}
-input.leftch[type="checkbox"] {
-  display:none;
-}
-input.leftch[type="checkbox"] + label span {
-  display:inline-block;
-  width:21px;
-  height:21px;
-  margin:0px 10px 0 0;
-  vertical-align:middle;
-  background:url(/img/ic_check_off.png) left top no-repeat;
-  cursor:pointer;
-}
-input.leftch[type="checkbox"]:checked + label span {  background:url(/img/ic_check_on.png) left top no-repeat;}
+#on_ex_container{position:relative;width:100%;margin:0 auto;text-align:center;background:url(/img/bg_onexh.png) no-repeat right top;min-height:1065px;background-size:auto 100%}
+#on_ex_container .left_section{float:left;width:30%;max-width:370px;}
+#on_ex_container .right_section{float:left;width:70%;max-width:370px;}
 
-#on_ex_container .right_section{float:left;width:70%;max-width:370px;padding-left:10px;box-sizing: border-box;}
+
