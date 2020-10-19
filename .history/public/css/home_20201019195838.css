@@ -21,9 +21,9 @@ header #lnb > span a{display:inline-block;margin-right:5px}
 #main_container .spot{position:relative;margin:0 auto;text-align:center;min-height:1000px;width:100%; background: url(/img/bg_graybottom.png) repeat-x bottom;}
 
 #main_container .spot > span{position:absolute;margin:0 auto;text-align:center;width:100%;left:0px;bottom:30px;}
-#main_container .people {position:absolute;left:0px;width:100%;min-height:990px;margin:0 auto;text-align:center;z-index:80;}
-#main_container .people span:nth-of-type(2){position:absolute;right:19%;bottom:100px;}
-#main_container .people span:nth-of-type(1){position:absolute;left:16%;bottom:20px;}
+#main_container .people {position:absolute;left:0px;width:100%;min-height:990px;margin:0 auto;text-align:center;z-index:80;border:1px solid red}
+#main_container .people span:nth-of-type(2){position:absolute;right:23%;bottom:100px;}
+#main_container .people span:nth-of-type(1){position:absolute;left:18%;bottom:80px;}
 #main_container .spot .center{display:block;margin:0 auto;text-align:center;margin-top:110px;padding-bottom:500px;}
 #main_container .spot .center iframe{border:8px solid #a4a5a7}
 button.buy{border-radius:100em;display:block;margin:0 auto;text-align:center;font-size:26px;color:#fff;border:3px solid #fff;background:#777777;padding:15px 25px;}
