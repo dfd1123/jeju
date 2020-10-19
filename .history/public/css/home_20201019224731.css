@@ -67,7 +67,7 @@ input.leftch[type="checkbox"]:checked + label span {  background:url(/img/ic_che
 #on_ex_container .left_section .search span button{border:none;background:#fff;}
 #on_ex_container .left_section p{display:block;margin:0 auto;padding-top:53px;}
 
-#on_ex_container .right_section{position:relative;float:left;width:80%;padding-left:10px;box-sizing: border-box;background:#fff url(/img/bg_onexh.png) no-repeat right top;background-size:100%;}
+#on_ex_container .right_section{position:relative;float:left;width:80%;padding-left:10px;box-sizing: border-box;background:#fff url(/img/bg_onexh.png) no-repeat right top;background-size:100%;border:1px solid red}
 #on_ex_container .right_section .content{display:block;position:relative;width:90%;}
 #on_ex_container .right_section .subtop{display:block;width:100%;min-height:353px;margin-bottom:15px;overflow:hidden;}
 #on_ex_container .right_section .subtop.menu01{background:url(/img/bg_onlinetop_food.png) no-repeat center top;background-size:100% auto;}
