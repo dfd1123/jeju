@@ -1,24 +1,5 @@
 html,body{margin:0;padding:0;font-size:0.75em;width:100%;overflow:hidden;font-family: 'NanumSquare', sans-serif;}
 .kr {font-family: 'NanumSquare', sans-serif !important;}
-html, h1, h2, h3, h4, h5, h6, form, fieldset, img {margin:0;padding:0;border:0}
-h1, h2, h3, h4, h5, h6 {font-size:1em;}
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block}
-
-#hd ul, nav ul, #ft ul {margin:0;padding:0;list-style:none}
-legend {position:absolute;margin:0;padding:0;font-size:0;line-height:0;text-indent:-9999em;overflow:hidden}
-label, input, button, select, img {vertical-align:middle}
-input, button {margin:0;padding:0;;font-size:1em}
-button {cursor:pointer}
-ul li{list-style:none;}
-
-textarea, select {;font-size:1em}
-select {margin:0}
-p {margin:0;padding:0;word-break:break-all}
-hr {display:none}
-pre {overflow-x:scroll;font-size:1.1em}
-a:link, a:visited {text-decoration:none}
-a:hover, a:focus, a:active {text-decoration:none;}
-
 /* 셀렉트바 스타일 */
 .select {
   position: relative;
@@ -34,7 +15,7 @@ a:hover, a:focus, a:active {text-decoration:none;}
   outline: 0;
   border: 0;
   border-radius: 0;
-  background: #ffffff;
+  background: #e6e6e6;
   color: #7b7b7b;
   appearance: none;
   -webkit-appearance: none;
