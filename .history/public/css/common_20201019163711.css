@@ -1,4 +1,4 @@
-html,body{margin:0;padding:0;font-size:0.75em;width:100%;height:100%;font-family: 'NanumSquare', sans-serif;}
+html,body{margin:0;padding:0;font-size:0.75em;width:100%;overflow:hidden;font-family: 'NanumSquare', sans-serif;}
 .kr {font-family: 'NanumSquare', sans-serif !important;}
 html, h1, h2, h3, h4, h5, h6, form, fieldset, img {margin:0;padding:0;border:0}
 h1, h2, h3, h4, h5, h6 {font-size:1em;}
@@ -54,7 +54,7 @@ a:hover, a:focus, a:active {text-decoration:none;}
 }
 .select__arrow {
   position: absolute;
-  top: 40%;
+  top: 16px;
   right: 15px;
   width: 0;
   height: 0;
