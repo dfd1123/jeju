@@ -24,7 +24,7 @@ a:hover, a:focus, a:active {text-decoration:none;}
   position: relative;
   display: inline-block;
   margin-bottom: 15px;
-  width: 100px;
+  width: 100%;
 }
 .select select {
   display: inline-block;
@@ -35,7 +35,7 @@ a:hover, a:focus, a:active {text-decoration:none;}
   border: 0;
   border-radius: 0;
   background: #ffffff;
-  color: #222;
+  color: #7b7b7b;
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;

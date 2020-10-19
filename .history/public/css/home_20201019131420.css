@@ -1,0 +1,5 @@
+@import url("./common.css");
+
+#wrap{position: relative;margin:0 auto;text-align:center;width:100%;}
+header{position: relative;width:100%;margin:0 auto;text-align:center;border-top:20px solid #f3be38;box-sizing: border-box;}
+header h1{display:block;margin:0 auto;text-align:center;margin:44px 0 auto;}
