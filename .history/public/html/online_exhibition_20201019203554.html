@@ -3,17 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-  <title><%= htmlWebpackPlugin.options.title %></title>
+  <title>Document</title>
   <link rel="stylesheet" href="/css/home.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
 
 </head>
 <body>
-    <noscript>
-        <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-      </noscript>
-    <div id="app">
+    <div id="wrap">
         <header> 
             <h1>
                 <a href="">
@@ -45,22 +41,13 @@
                 </ul>
             </div>
         </header>
-        <section id="ex_container">
-            <h2>화장품관ㅣ(주)마사플래닛</h2>
-            <div class="people">
-                <span><img src="/img/img_peo_left.png"></span>
-                <span><img src="/img/img_peo_right.png"></span>
+        <section id="on_ex_container">
+            <div class="left_section">
+                <h2>
+                    <input type="checkbox" id="c1" name="" class="leftch" /><label for="c1"><span></span>온라인 전시관 </label></h2>
+
             </div>
-            <div class="left"><img src="/img/img_a4.jpg"></div>
-            <div class="right"><img src="/img/img_a4.jpg"></div>
-            <div class="spot">
-                <span><img src="/img/img_center_booth.png"></span>
-                <div class="center">
-                    <iframe width="660" height="376" src="https://www.youtube.com/embed/G9ntaxClfrA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <button type="submit" class="buy">제품 구매하러 가기 > </button>
-            </div>
-           
+            <div class="right_section"></div>
         </section>
     </div>
    
