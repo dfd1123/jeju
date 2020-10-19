@@ -39,6 +39,6 @@ button.buy{border-radius:100em;display:block;margin:0 auto;text-align:center;fon
 }
 #main_container .left img,
 #main_container .right img{position:absolute;max-width:330px;max-height:630px;margin-top:220px;}
-#main_container .left img{left:-370px;z-index:90;transform:perspective(800px) rotateY(20deg);-ms-transform:perspective(800px) rotateY(20deg);-webkit-transform:perspective(800px) rotateY(20deg)}
-#main_container .right img{right:-370px;transform:perspective(500px) rotateY(-10deg);-ms-transform:perspective(500px) rotateY(-10deg);-webkit-transform:perspective(500px) rotateY(-10deg)}
+#main_container .left img{left:-370px;z-index:90;transform:perspective(800px) rotateY(20deg)}
+#main_container .right img{right:-370px;transform:perspective(500px) rotateY(-10deg)}
 
