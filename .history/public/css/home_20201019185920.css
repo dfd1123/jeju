@@ -38,6 +38,6 @@ header #lnb > span a{display:inline-block;margin-right:5px}
 }
 #main_container .left img,
 #main_container .right img{position:absolute;max-width:330px;max-height:630px;margin-top:220px;}
-#main_container .left img{left:-370px;z-index:90;}
-#main_container .right img{right:-370px;}
+#main_container .left img{left:-360px;z-index:90;}
+#main_container .right img{right:-360px;}
 
