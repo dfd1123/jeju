@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  <title><%= htmlWebpackPlugin.options.title %></title>
+  <link rel="stylesheet" href="/css/home.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
+
+</head>
+<body>
+    <noscript>
+        <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      </noscript>
+  
+    <div id="app">
+          <!-- 모달시작 -->
+        <div class="modalbg"></div>
+        <div class="modal ">
+            <div class="eventtxt">
+                <h3>이벤트 참여를 위한  회원정보 입력</h3>
+                <span>*는 필수 입력 항목 입니다.</span>
+                <dl>
+                    <dt>이름</dt>
+                    <dd><input type="text" ></dd>
+                </dl>
+                <dl>
+                    <dt>소속 </dt>
+                    <dd><input type="text" ></dd>
+                </dl>
+                <dl>
+                    <dt>직함</dt>
+                    <dd><input type="text" ></dd>
+                </dl>
+                <dl>
+                    <dt>휴대폰 번호 </dt>
+                    <dd><input type="text" ></dd>
+                </dl>
+                <dl>
+                    <dt>전화 번호 </dt>
+                    <dd><input type="text" ></dd>
+                </dl>
+                <dl>
+                    <dt>이메일 주소 </dt>
+                    <dd><input type="text" >@<input type="text" ></dd>
+                </dl>
+                <div class="privacy">
+                    <h4>· 개인정보취급방침</h4>
+                    <span>
+                        <strong>개인정보취급방침</strong>
+ 
+                        ㈜이노윙(이하 “회사”)는 정보통신망 이용촉진 및 정보보호에 관한 법률, 개인정보보호법에 따라 
+                        모든 고객님의 개인정보보호 및 권익을 보호하기 위하여 수집, 보유된 정보를 적법하고 적정하게 취급할 것입니다. 
+                         
+                        "회사"는 개인정보와 관련한 고객님의 고충을 원활하게 처리할 수 있도록 관련 법령에 의거한 
+                        개인정보 취급방침을 정하여 "회사"의 서비스를 이용하는 고객님의 권익보호에 최선을 다하겠습니다.
+                        본 개인정보처리방침은 ㈜이노윙이 제공하는 서비스 이용에 적용되며 다음과 같은 내용을 담고 있습니다. 
+                         
+                        제12조 (서비스의 이용 신청에 대한 승낙과 거절)
+                        </span>
+                    <em>동의합니다. <input type="checkbox" id="p1" name="" class="leftch" /><label for="p1"><span></span>가공식품</label></em>
+                </div>
+            </div>
+        </div>
+        <!-- //모달끝 -->
+        <header> 
+            <h1>
+                <a href="">
+                    <img src="/img/h1_logo.png">
+                    <img src="/img/h1_logo_txt.png">
+                </a>
+            </h1>
+            <div class="select">
+                <select>
+                  <option>한국어</option>
+                  <option>english</option>
+                  <option>china</option>
+                  <option>japan</option>
+                </select>
+                <div class="select__arrow"></div>
+            </div>
+            <div id="lnb">
+                <span>
+                    <a href=""><img src="/img/ic_youtube.png"></a>
+                    <a href=""><img src="/img/ic_facebook.png"></a>
+                    <a href=""><img src="/img/ic_instagram.png"></a>
+                </span>
+                <ul>
+                    <li><a href="">오프닝세션</a></li>
+                    <li><a href="">컨퍼런스</a></li>
+                    <li><a href="" class="on">온라인전시관</a></li>
+                    <li><a href="">공지 및 이벤트</a></li>
+                    <li><a href="">SNS</a></li>
+                </ul>
+            </div>
+        </header>
+        <section id="on_ex_container">
+             <div class="left_section">
+                <h2><input type="checkbox" id="c1" name="" class="leftch" /><label for="c1"><span></span>온라인 전시관 </label></h2>
+                <ul>
+                    <li><input type="checkbox" id="c2" name="" class="leftch" /><label for="c2"><span></span>가공식품</label></li>
+                    <li><input type="checkbox" id="c3" name="" class="leftch" /><label for="c3"><span></span>간식</label></li>
+                    <li><input type="checkbox" id="c4" name="" class="leftch" /><label for="c4"><span></span>건강식품</label></li>
+                    <li><input type="checkbox" id="c5" name="" class="leftch" /><label for="c5"><span></span>마을공동체</label></li>
+                    <li><input type="checkbox" id="c6" name="" class="leftch" /><label for="c6"><span></span>전통식품</label></li>
+                    <li><input type="checkbox" id="c7" name="" class="leftch" /><label for="c7"><span></span>주류</label></li>
+                    <li><input type="checkbox" id="c8" name="" class="leftch" /><label for="c8"><span></span>음료,차류</label></li>
+                    <li><input type="checkbox" id="c9" name="" class="leftch" /><label for="c9"><span></span>천연염색</label></li>
+                    <li><input type="checkbox" id="c10" name="" class="leftch" /><label for="c10"><span></span>화장품</label></li>
+                </ul>
+                <div class="search">
+                    <h3>부스명 검색</h3>
+                    <span><input type="text"><button type="submit"><img src="/img/ic_search.png"></button></span>
+                </div>
+                <p><img src="/img/img_com.png"></p>
+            </div>
+            <div class="right_section">
+                <div class="content">
+                    <div class="subtop menu01">
+                        <h3><strong>건강식품</strong>관 </h3>
+                    </div>
+                    <div class="csslider infinity" id="slider1">
+                      <i class="leftbg"></i>
+                      <i class="rightbg"></i>
+                      <input type="radio" name="slides" id="slides_1"/>
+                      <input type="radio" name="slides" checked="checked"  id="slides_2"/>
+                      <input type="radio" name="slides" id="slides_3"/>
+                      <ul>
+                         <li>
+                             <div><em>㈜휴럼</em><img src="/img/img_brand_sm01.png"></div>
+                             <div><em>㈜시루에 담은 꿈</em><img src="/img/img_brand_sm02.png"></div>
+                             <div><em>㈜제주자연초</em><img src="/img/img_brand_sm03.png"></div>
+                             <div><em>㈜에버그린</em><img src="/img/img_brand_sm04.png"></div>
+                             <div><em>㈜제주자연식품</em><img src="/img/img_brand_sm05.png"></div>
+                         </li>
+                         <li>
+                             <div><em>㈜휴럼</em><img src="/img/img_brand_sm01.png"></div>
+                             <div><em>㈜시루에 담은 꿈</em><img src="/img/img_brand_sm02.png"></div>
+                             <div><em>㈜제주자연초</em><img src="/img/img_brand_sm03.png"></div>
+                             <div><em>㈜에버그린</em><img src="/img/img_brand_sm04.png"></div>
+                             <div><em>㈜제주자연식품</em><img src="/img/img_brand_sm05.png"></div>
+                         </li>
+                         <li>
+                             <div><em>㈜휴럼</em><img src="/img/img_brand_sm01.png"></div>
+                             <div><em>㈜시루에 담은 꿈</em><img src="/img/img_brand_sm02.png"></div>
+                             <div><em>㈜제주자연초</em><img src="/img/img_brand_sm03.png"></div>
+                             <div><em>㈜에버그린</em><img src="/img/img_brand_sm04.png"></div>
+                             <div><em>㈜제주자연식품</em><img src="/img/img_brand_sm05.png"></div>
+                         </li>
+                     </ul>
+                      <div class="arrows">
+                         <label for="slides_1"></label>
+                         <label for="slides_2"></label>
+                         <label for="slides_3"></label>
+                         <label class="goto-first" for="slides_1"></label>
+                         <label class="goto-last" for="slides_3"></label>
+                      </div>
+                    </div>
+                    <div class="bigimg">
+                        <ul>
+                            <li><em>㈜태반의땅 제주 </em><img src="/img/img_brand_big01.png"></li>
+                            <li><em>㈜제주자연식품 </em><img src="/img/img_brand_big02.png"></li>
+                            <li><em>㈜시루에 담은 꿈</em><img src="/img/img_brand_big03.png"></li>
+                            <li><em>㈜태반의땅 제주 </em><img src="/img/img_brand_big01.png"></li>
+                            <li><em>㈜제주자연식품 </em><img src="/img/img_brand_big02.png"></li>
+                            <li><em>㈜시루에 담은 꿈</em><img src="/img/img_brand_big03.png"></li>
+                            <li><em>㈜태반의땅 제주 </em><img src="/img/img_brand_big01.png"></li>
+                            <li><em>㈜제주자연식품 </em><img src="/img/img_brand_big02.png"></li>
+                            <li><em>㈜시루에 담은 꿈</em><img src="/img/img_brand_big03.png"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>>
+    </div>
+   
+ 
+</body>
+</html>
