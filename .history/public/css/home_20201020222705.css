@@ -288,25 +288,19 @@ a.btclose{background:#757575}
 .main_content div.movie i{position:absolute;left:0px;width:100%;height:100%;background:rgba(0,0,0,0.5);z-index:10}
 .main_content div.movie > img{position:absolute;z-index:0;left:0;}
 .main_content div.movie a{position:relative;display:block;z-index:20;margin:0 auto;text-align:center;margin-top:250px;}
-.main_content div.movie > span{position:absolute;width:100%;bottom:40px;color:#fff;font-size:20px;text-align:center;z-index:40;left:0;text-align:center;}
+.main_content div.movie > span{position:absolute;width:100%;bottom:20px;color:#fff;font-size:20px;text-align:center;}
 .main_content div.movie:hover i{opacity:0;transition:all ease 1.0s;}
 
 
 .main_content div.right{float:right;width:46%;overflow:hidden;}
 .main_content div.right .confgo,
-.main_content div.right .onlinego{display:block;position: relative;width:100%;margin:0 auto;text-align:center;margin-bottom: 20px;max-height:345px;}
+.main_content div.right .onlinego{display:block;position: relative;margin-bottom: 20px;}
 .main_content div.right .onlinego i,
 .main_content div.right .confgo i{position:absolute;left:0px;width:100%;height:100%;background:rgba(0,0,0,0.5);z-index:10}
+.main_content div.right .onlinego h3,
+.main_content div.right .confgo h3{position:relative;display:block;z-index:20;margin:0 auto;text-align:center;margin-top:20%;}
 .main_content div.right .onlinego img,
 .main_content div.right .confgo img{position:relative;z-index:0;left:0;}
-.main_content div.right .onlinego span,
-.main_content div.right .confgo span {position:absolute;display:block;margin:0 auto;left:37%;z-index:20;color:#fff;border-radius:100em;border:1px solid #fff;top:50%;padding:13px 30px;font-size:28px;}
-.main_content div.right .onlinego h3,
-.main_content div.right .confgo h3{position:absolute;z-index:20;left:0;color:#fff;text-align:center;font-size:44px;width:100%;top:25%;}
-.main_content div.right .confgo:hover i,
-.main_content div.right .onlinego:hover i,
-.main_content div.right .onlinego:hover span,
-.main_content div.right .confgo:hover span,
-.main_content div.right .confgo:hover h3,
-.main_content div.right .onlinego:hover h3{opacity:0;transition:all ease 1.0s;}
+.main_content div.right .onlinego a,
+.main_content div.right .confgo a{position:absolute;z-index:0;left:0;}
 

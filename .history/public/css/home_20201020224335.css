@@ -304,7 +304,7 @@ a.btclose{background:#757575}
 .main_content div.right .onlinego h3,
 .main_content div.right .confgo h3{position:absolute;z-index:20;left:0;color:#fff;text-align:center;font-size:44px;width:100%;top:25%;}
 .main_content div.right .confgo:hover i,
-.main_content div.right .onlinego:hover i,
+.main_content div.right .onlinego:hover i{opacity:0;transition:all ease 1.0s;}
 .main_content div.right .onlinego:hover span,
 .main_content div.right .confgo:hover span,
 .main_content div.right .confgo:hover h3,
