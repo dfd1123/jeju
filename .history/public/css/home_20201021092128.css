@@ -310,17 +310,14 @@ a.btclose{background:#757575}
 .main_content div.right .confgo:hover h3,
 .main_content div.right .onlinego:hover h3{opacity:0;transition:all ease 1.0s;}
 
-.main_content div.speech{display:inline-block;position:relative;margin:0 auto;text-align:center;width:53.7%;height:551px;overflow:hidden;max-width:806px;opacity:1.0;cursor:pointer;margin-left:10px;margin-right:10px;}
+.main_content div.speech{display:block;position:relative;margin:0 auto;text-align:center;width:53.7%;height:100%;overflow:hidden;max-width:925px;opacity:1.0;cursor:pointer;}
 .main_content div.speech i{position:absolute;left:0px;width:100%;height:100%;background:rgba(0,0,0,0.5);z-index:10}
 .main_content div.speech > img{position:absolute;z-index:0;left:0;}
-.main_content div.speech a{position:relative;display:block;z-index:20;margin:0 auto;text-align:center;margin-top:200px;}
+.main_content div.speech a{position:relative;display:block;z-index:20;margin:0 auto;text-align:center;margin-top:250px;}
 .main_content div.speech > span{position:absolute;width:100%;bottom:40px;color:#fff;font-size:20px;text-align:center;z-index:40;left:0;text-align:center;}
 .main_content div.speech:hover i{opacity:0;transition:all ease 1.0s;}
 
 .tab{position:relative;margin:0 auto;text-align:center;}
-.tab ul{padding:0px;margin:0px;margin-bottom:30px;}
+.tab ul{padding:0px;margin:0px;}
 .tab ul li{display:inline-block;margin:0 5px;}
-.tab ul li a{display:block;color:#7c7c7c;background:#d7d7d7;border-radius:100em;line-height:37px;width:130px;font-size:19px;font-weight:bold;}
-.tab ul li a:hover,
-.tab ul li a.on,
-.tab ul li a:active{color:#fff;background:#228ba8;}
+.tab ul li a{display:block;color:#7c7c7c;background:#d7d7d7;border-radius:100em;line-height:37px;width:130px;}
