@@ -333,12 +333,9 @@ a.btclose{background:#757575}
 .noticebox table caption{display:none;}
 .noticebox table th{text-align:center;font-size:24px;font-weight:bold;color:#7d7d7d;padding:20px 0;border-bottom:1px solid #cfcfcf;}
 .noticebox table td {padding:30px 0;color:#707070;font-size:21px;text-align:center;border-bottom:1px solid #cfcfcf;}
-.noticebox table td a{color:#707070;}
 .noticebox table td:nth-of-type(2){text-align:left;}
-.noticebox table td a.go{display:block;margin:0 auto;background:#f3be38;color:#fff;width:100px;border-radius:10px;line-height:41px;font-size:19px;color:#fff;}
+.noticebox table td a{display:block;margin:0 auto;background:#f3be38;color:#fff;width:100px;border-radius:10px;line-height:41px;font-size:19px;color:#fff;}
 .noticebox .tnavi{display:block;margin:0 auto;text-align:center;padding-top:60px;}
 .noticebox .tnavi ul{padding:0px;margin:0px;}
 .noticebox .tnavi ul li{display:inline-block;border:1px solid #969696;width:44px;height:44px;}
-.noticebox .tnavi ul li a{display:block;margin:0 auto;line-height:44px;text-align:center;color:#8a8a8a;font-size:22px;}
-.noticebox .tnavi ul li:hover{border:1px solid #000}
-.noticebox .tnavi ul li:hover a{color:#000;font-weight:bold;}
+.noticebox .tnavi ul li a{display:block;margin:0 auto;line-height:44px;}
