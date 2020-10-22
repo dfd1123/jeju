@@ -362,11 +362,11 @@ a.btclose{background:#757575}
 .noticeview .btbox a.bk{background:#444;color:#fff;}
 .noticeview .btbox a.wr{background:#fff;color:#343434;border:1px solid #343434;}
 
-.snsbox{display:block;margin:0 auto;text-align:center;padding:40px 0;}
+.snsbox{display:block;margin:0 auto;text-align:center;}
 .snsbox ul{padding:0px;margin:0px;}
 .snsbox ul li{display:block;position:relative;margin:0 auto;text-align:center;background:#fff;box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2)  ; width:505px;overflow:hidden;
 	-webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2)  ; 
   -moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2)  ;margin-bottom:45px; }
 .snsbox ul li i{float:left;margin-right:30px;}
 .snsbox ul li a{display:block;color:#272727;font-size:36px;font-weight:bold;line-height:102px;text-align:left;width:100%;}
-.snsbox ul li:after{content:'';position:absolute;background:url(/img/ic_sns_go.png) no-repeat center top;width:13px;height:90px;right:20px;top:36%;z-index:10;}
+.snsbox ul li:after{content:'';position:absolute;background:url(/img/ic_sns_go.png) no-repeat center top;width:13px;height:90px;right:20px;top:38%;z-index:10;}
