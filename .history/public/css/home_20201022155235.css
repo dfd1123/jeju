@@ -352,12 +352,7 @@ a.btclose{background:#757575}
 .noticeview .viewhead ul li:first-child{margin-left:0px;}
 .noticeview .viewhead ul li:first-child:before{display:none;}
 .noticeview .viewcontent{display:block;text-align:left;padding:60px;font-size:20px;line-height:150%;color:#948f8f}
-.noticeview .viewcontent > img{display:block;margin:30px 0;overflow:hidden;}
-.noticeview .file{display:block;width:100%;background:#f7f7f7;padding:20px;overflow:hidden;box-sizing: border-box;}
-.noticeview .file span{float:left;width:80%;font-size:14px;color:#222;line-height:130%;}
-.noticeview .file span em{display:block;margin-top:0px;font-size:13px;color:#888;}
-.noticeview .file a{float:right;width:15%;text-align:right;padding:0px;}
-.noticeview .btbox{float:right;width:100%;padding-top:20px;border-top:1px solid #9a9a9a;}
-.noticeview .btbox a{float:right;line-height:40px;padding:0 30px;font-size:24px;border-radius:20px;margin:0 5px;}
-.noticeview .btbox a.bk{background:#444;color:#fff;}
-.noticeview .btbox a.wr{background:#fff;color:#343434;border:1px solid #343434;}
+.noticeview .viewcontent img{display:block;margin:30px 0;overflow:hidden;}
+.noticeview .file{display:block;width:100%;background:#f7f7f7;padding:20px;overflow:hidden;}
+.noticeview .file span{float:left;width:80%;font-size:14px;color:#888;}
+.noticeview .file a{float:right;width:20%;}
