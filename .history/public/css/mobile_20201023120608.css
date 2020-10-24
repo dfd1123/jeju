@@ -1,0 +1,66 @@
+@import url("./common.css");
+
+header{position: relative;display:block;width:100%;height:100px;margin:0 auto;text-align:center;min-height:100px;border-top:20px solid #f3be38;box-sizing: border-box}
+header h1{display:block;position:relative;margin:0 auto;text-align:center;overflow:hidden;padding:20px 0;}
+header h1 img{display:block;margin:0 auto;margin-bottom:10px;max-width:70%;}
+
+nav {position:absolute;left:0px;top:25px;z-index:99; }
+#menuToggle {display: flex;flex-direction: column;position: relative;top: 25px;left: 25px;z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;}
+#menuToggle input{display: flex;width: 40px;height: 32px;position: absolute;cursor: pointer;opacity: 0;z-index: 2;}
+#menuToggle span{display: flex;width: 29px;height: 2px;margin-bottom: 5px;position: relative;background: #000; border-radius: 3px; z-index: 1;transform-origin: 5px 0px;
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                opacity 0.55s ease;}
+#menuToggle span:first-child {transform-origin: 0% 0%;}
+#menuToggle span:nth-last-child(2){transform-origin: 0% 100%;}
+#menuToggle input:checked ~ span{opacity: 1;transform: rotate(45deg) translate(-3px, -1px);background: #36383F;}
+#menuToggle input:checked ~ span:nth-last-child(3){opacity: 0;transform: rotate(0deg) scale(0.2, 0.2);}
+#menuToggle input:checked ~ span:nth-last-child(2){transform: rotate(-45deg) translate(0, -1px);}
+#menu{position: absolute;width: 180px;height: 400px;box-shadow: 0 0 10px #85888C;margin: -50px 0 0 -50px;padding: 50px;
+    padding-top: 125px;
+    background-color: #F5F6FA;
+    -webkit-font-smoothing: antialiased;
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);}
+#menu li{padding: 10px 0;transition-delay: 2s;}
+#menuToggle input:checked ~ ul{transform: none;}
+
+
+
+#main_container{position:relative;margin:0 auto;background:url(/img/bg_main.png) no-repeat left bottom;width:100%;height: 100%;padding:60px 0;overflow:hidden;box-sizing:border-box}
+.main_content{position:relative;margin:0 auto;text-align:center;width:95%;overflow:hidden;height:700px;}
+.main_content div.movie{float:left;position:relative;margin:0 auto;text-align:center;width:53.7%;height:100%;overflow:hidden;max-width:925px;opacity:1.0;cursor:pointer;}
+.main_content div.movie i{position:absolute;left:0px;width:100%;height:100%;background:rgba(0,0,0,0.5);z-index:10}
+.main_content div.movie > img{position:absolute;z-index:0;left:0;}
+.main_content div.movie a{position:relative;display:block;z-index:20;margin:0 auto;text-align:center;margin-top:250px;}
+.main_content div.movie > span{position:absolute;width:100%;bottom:40px;color:#fff;font-size:20px;text-align:center;z-index:40;left:0;text-align:center;}
+.main_content div.movie:hover i{opacity:0;transition:all ease 1.0s;}
+
+
+.main_content div.right{float:right;width:46%;overflow:hidden;}
+.main_content div.right .confgo,
+.main_content div.right .onlinego{display:block;position: relative;width:100%;margin:0 auto;text-align:center;margin-bottom: 20px;max-height:345px;}
+.main_content div.right .onlinego i,
+.main_content div.right .confgo i{position:absolute;left:0px;width:100%;height:100%;background:rgba(0,0,0,0.5);z-index:10}
+.main_content div.right .onlinego img,
+.main_content div.right .confgo img{position:relative;z-index:0;left:0;}
+.main_content div.right .onlinego span,
+.main_content div.right .confgo span {position:absolute;display:block;margin:0 auto;left:37%;z-index:20;color:#fff;border-radius:100em;border:1px solid #fff;top:50%;padding:13px 30px;font-size:28px;}
+.main_content div.right .onlinego h3,
+.main_content div.right .confgo h3{position:absolute;z-index:20;left:0;color:#fff;text-align:center;font-size:44px;width:100%;top:25%;}
+.main_content div.right .confgo:hover i,
+.main_content div.right .onlinego:hover i,
+.main_content div.right .onlinego:hover span,
+.main_content div.right .confgo:hover span,
+.main_content div.right .confgo:hover h3,
+.main_content div.right .onlinego:hover h3{opacity:0;transition:all ease 1.0s;}
+
+.main_content div.speech{display:inline-block;position:relative;margin:0 auto;text-align:center;width:53.7%;height:551px;overflow:hidden;max-width:806px;opacity:1.0;cursor:pointer;margin-left:10px;margin-right:10px;}
+.main_content div.speech i{position:absolute;left:0px;width:100%;height:100%;background:rgba(0,0,0,0.5);z-index:10}
+.main_content div.speech > img{position:absolute;z-index:0;left:0;}
+.main_content div.speech a{position:relative;display:block;z-index:20;margin:0 auto;text-align:center;margin-top:200px;}
+.main_content div.speech > span{position:absolute;width:100%;bottom:40px;color:#fff;font-size:20px;text-align:center;z-index:40;left:0;text-align:center;}
+.main_content div.speech:hover i{opacity:0;transition:all ease 1.0s;}
