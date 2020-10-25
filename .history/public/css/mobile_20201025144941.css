@@ -65,9 +65,9 @@ h3.h3tit{display:block;font-size:30px;width:95%;margin:0 auto;text-align:center;
 .main_content div.right .onlinego:hover h3{opacity:0;transition:all ease 1.0s;}
 
 
-.subnavi{display:block;min-height:40px;background:#289ab9;padding:10px 10px;box-sizing: border-box;}
+.subnavi{display:block;min-height:40px;background:#289ab9;padding:10px 10px;box-sizing: border-box;z-index:90;}
 .subnavi ul{padding:0px;margin:0px;}
-.subnavi ul li{float:left;width:30%;position:relative;font-size:17px;color:#fff;padding:0 15px;z-index:90;text-align:left;}
+.subnavi ul li{float:left;width:30%;position:relative;font-size:16px;color:#fff;padding:0 15px;}
 .subnavi ul li:first-child{padding-left:0px;}
 .subnavi ul li:after{content:'>';position:absolute;left:-5px;top:0px;}
 .subnavi ul li:first-child:after{display:none;}
@@ -75,24 +75,22 @@ h3.h3tit{display:block;font-size:30px;width:95%;margin:0 auto;text-align:center;
 .subnavi span button{border:none;background:transparent}
 .subnavi span button img{max-width:25px}
 
-.subnavi label {position:relative;cursor : pointer;display: block;font-style:normal;width:100%;}
-.subnavi label:after {position:absolute;right:0px; content: "▼";font-size:11px;margin-top:3px;}
+.subnavi label {position:relative;cursor : pointer;display: block;font-style:normal}
+.subnavi label:after {float: right; right: 10%;content: "▼";font-size:11px;top:12px;}
 .submenu {
- position:absolute;top:30px;z-index:99;
+ position:absolute;top:90px;
   width:100%;
   height:0px;
   overflow: hidden;
-  box-sizing:border-box;
   text-align: center;
   background:#289ab9;
-  left:-10px;
   transition: height .4s ease;
 }
 
-.submenu a {display:block;padding :10px 15px;color:#fff;font-size:13px;text-align:left;border-bottom:1px solid rgba(256,256,256,0.2)}
-.submenu a:last-child{border:none;}
+.submenu a {display:block;padding : 10px 30px;}
+
 #touch {position: absolute; opacity: 0; height: 0px;}    
-#touch:checked + .submenu {height: 315px;}  
+#touch:checked + .submenu {height: 300px;}  
 
 
 #on_ex_container{position:relative;overflow:hidden;width:100%;height:100%;margin:0 auto;text-align:center;}

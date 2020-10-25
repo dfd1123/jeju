@@ -85,7 +85,6 @@ h3.h3tit{display:block;font-size:30px;width:95%;margin:0 auto;text-align:center;
   box-sizing:border-box;
   text-align: center;
   background:#289ab9;
-  left:-10px;
   transition: height .4s ease;
 }
 
