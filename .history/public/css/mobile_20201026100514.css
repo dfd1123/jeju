@@ -307,14 +307,3 @@ a.btclose{background:#757575}
 .modal .eventtxt .privacy > span strong{display:block;font-size:13px;color:#868484;}
 .modal .eventtxt .privacy em{display:block;padding:15px 0;font-style:normal;text-align:right;font-size:14px;color:#a0a0a0}
 .modal .eventtxt .privacy em strong{color:#005cc2;font-weight:bold;font-size:20px;}
-#ex_container{position:relative;width:100%;min-height:1110px;margin:0 auto;text-align:center;overflow:hidden;background:url(/img/bg_green.png) no-repeat center top, url(/img/bg_greenline.png) repeat center top;}
-#ex_container > h2{position: absolute;width:100%;margin:0 auto;text-align:center;background-color: rgba(255,255,255,0.4);left:0px;top:0px;height:60px;line-height: 60px;z-index:80;font-size:24px;color:#222;}
-#ex_container .spot{position:relative;margin:0 auto;text-align:center;min-height:1000px;width:100%; background: url(/img/bg_graybottom.png) repeat-x bottom;}
-
-#ex_container .spot > span{position:absolute;margin:0 auto;text-align:center;width:100%;left:0px;bottom:30px;}
-#ex_container .people {position:absolute;left:0px;width:100%;min-height:990px;margin:0 auto;text-align:center;z-index:80;}
-#ex_container .people span:nth-of-type(2){position:absolute;right:19%;bottom:100px;}
-#ex_container .people span:nth-of-type(1){position:absolute;left:16%;bottom:20px;}
-#ex_container .spot .center{display:block;margin:0 auto;text-align:center;margin-top:110px;padding-bottom:500px;}
-#ex_container .spot .center iframe{border:8px solid #a4a5a7}
-
