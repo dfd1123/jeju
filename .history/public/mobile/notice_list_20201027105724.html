@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/mobile.css">
+</head>
+<body>
+  <noscript>
+    <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+  </noscript>
+<div id="app">
+    <header> 
+        <h1>
+            <a href="">
+                <img src="/img/h1_logo.png">
+                <img src="/img/h1_logo_txt.png">
+            </a>
+        </h1>
+        <nav role="navigation">
+            <div id="menuToggle">
+              <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+            <ul id="menu">
+                <li><a href="">오프닝세션</a></li>
+                <li><a href="">컨퍼런스</a></li>
+                <li><a href="" >온라인전시관</a></li>
+                <li><a href="">공지 및 이벤트</a></li>
+                <li><a href="">SNS</a></li>
+            </ul>
+           </div>
+          </nav>
+    </header>
+    <section id="comm_container">
+        <div class="subnavi">
+            <ul>
+                <li>공지 및 이벤트</li>
+            </ul>
+            
+        </div>
+       
+        <div class="noticebox">
+            <span>총 <strong>12</strong>건의 글이 있습니다.</span>
+            
+            <div class="tnavi">
+                <ul>
+                    <li><a href=""><img src="/img/ic_first.png"></a></li>
+                    <li><a href=""><img src="/img/ic_prev.png"></a></li>
+                    <li><a href="" class="on">1</a></li>
+                    <li><a href="">2</a></li>
+                    <li><a href=""><img src="/img/ic_next.png"></a></li>
+                    <li><a href=""><img src="/img/ic_end.png"></a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+   
+</div>
+
+
+</body>
+</html>
